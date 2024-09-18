@@ -1,0 +1,131 @@
+.sk {
+  animation: skeleton 1s ease infinite alternate;
+}
+
+@keyframes skeleton {
+  to {
+    opacity: 0.5;
+  }
+}
+
+.sk-radio {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d1d1d1;
+}
+
+.sk-main {
+  width: 300px;
+  height: 20px;
+  background-color: #d1d1d1;
+  border-radius: 5px;
+}
+
+.sk-sub {
+  width: 200px;
+  height: 15px;
+  background-color: #d1d1d1;
+  border-radius: 5px;
+}
+
+.sk-chat {
+  animation: skeleton 1s ease infinite alternate;
+}
+
+.sk-chat-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #d1d1d1;
+}
+
+.sk-quick-link {
+  animation: skeleton 1s ease infinite alternate;
+}
+
+.sk-quick-text {
+  width: 200px;
+  background-color: #d1d1d1;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.sk-quick-url {
+  width: 800px;
+  background-color: #d1d1d1;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.sk-flex {
+  display: flex;
+  gap: 10px;
+}
+
+.sk-my-work {
+  animation: skeleton 1s ease infinite alternate;
+}
+
+.sk-title {
+  height: 10px;
+  width: 150px;
+  background-color: #d1d1d1;
+  border-radius: 5px;
+}
+
+.sk-user-header {
+  gap: 5px;
+}
+
+.sk-date {
+  height: 10px !important;
+  width: 150px;
+  background-color: #d1d1d1;
+  border-radius: 5px;
+}
+
+.sk-singleChat {
+  animation: skeleton 1s ease infinite alternate;
+}
+
+.sk-chatPicture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d1d1d1;
+}
+
+.sk-convName {
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #d1d1d1;
+}
+
+.sk-lastMsg {
+  margin-top: 10px;
+  width: 300px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #d1d1d1;
+}
+
+.sk-chatBox {
+  margin-left: 20px;
+  animation: skeleton 1s ease infinite alternate;
+  max-width: 200px;
+}
+
+.sk-chatBoxImg {
+  width: 40px;
+  height: 40px;
+  background-color: #d1d1d1;
+  color: transparent;
+  border-radius: 50%;
+}
+
+.card-skeleton {
+  display: flex;
+  gap: 10px;
+}

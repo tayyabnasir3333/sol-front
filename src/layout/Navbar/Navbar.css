@@ -1,0 +1,32 @@
+/* Navbar.css */
+
+.navbar {
+  padding: 15px 50px;
+  background-color: #2c3e50; /* Change background color as needed */
+  /* color: white; */
+  height: 100px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.button-logout {
+  font-size: 17px;
+  border-radius: 20px;
+  width: 90px;
+  height: 35px;
+  border: none;
+  background-color: white;
+  color: #2c3e50;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-logout:hover {
+  background-color: #34495e;
+  color: white;
+}

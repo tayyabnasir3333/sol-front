@@ -1,0 +1,18 @@
+export const serverRoutes = {
+  LOGIN: "/auth/login",
+  USERS: "/auth/users",
+  DELETE_USER: "/auth/user",
+  DOWNLOAD_CSV: "/auth/downloadCsv",
+  WALLET_USERS_AMOUNT: "/auth/walletUsersAmount",
+  COMMISSIONS: "/commission",
+  PROMOS: "/pricing",
+  LEVELS: "/levels/user-level",
+  ADVERTISEMENT: "/advertisement",
+  ADVERTISEMENT_TOKEN: "/advertisement/getByIdTokenInfo",
+  TRANSACTION_HISTORY: "/pricing/transaction",
+  PAID_COMMISSION: "/auth/paid-commission",
+  ALWAYS_APPROVE_ADVERTISEMENT: "/advertisement/always-approve",
+  SEND_NOTIFICATION: "/notification/sendNotification",
+  PAY_THE_COMMISSION: "/auth/payTheCommission",
+  UPDATE_COMMISSION_SERVED: "/auth/updateComissionServed",
+};

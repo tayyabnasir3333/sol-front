@@ -1,0 +1,15 @@
+export const browserRoutes = {
+  HOME: "/",
+  LOGIN: "/login",
+  SIGNUP: "/signup",
+  DASHBOARD: "/dashboard",
+  COMMISSION: "commission",
+  PROMO_AND_PRICE: "promotion",
+  ADVERTISEMENT: "advertisement",
+  APPROVE_POST: "approve_post",
+  REPORTED_POST: "reported_post",
+  USERS: "users",
+  POSTS: "posts",
+  UNPAID_COMMISSIONS: "unpaid_commissions",
+  PAID_COMMISSIONS: "paid_commissions",
+};

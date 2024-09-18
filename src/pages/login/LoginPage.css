@@ -1,0 +1,22 @@
+.position-box-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
